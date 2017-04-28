@@ -9,7 +9,7 @@ L.GeoJSONFromURL = L.GeoJSON.extend({
     myOpts: {
         url : null,
         async : true,
-        callback : function(map) {
+        callback : function(layer) {
             return undefined;
         },
     },
