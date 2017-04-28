@@ -8,7 +8,7 @@ Leaflet Plugin for loading GeoJSON data directly from a URL
             async : true,
             callback : function (layer) {
                 console.log(layer.getBounds());
-            };
+            }
         },{
             // L.GeoJSON standard options
         }).addTo(map);
